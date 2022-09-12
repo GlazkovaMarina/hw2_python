@@ -26,3 +26,7 @@ with open('file.txt', 'r') as f:
 print(f"Произведение выбранных элементов: {mult}")
 
 # 5 Реализуйте алгоритм перемешивания списка
+my_list = [5, 9, 6, 33, -9]
+print(f"Исходный массив: {my_list}")
+random.shuffle(my_list)
+print(f"Перемешанный массив: {my_list}")
